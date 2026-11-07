@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #444;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(135deg, #e88bb5, #c75b91);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(180, 70, 120, 0.15);
+}
+
+header h1 {
+    margin-bottom: 12px;
+    font-size: 28px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+.form-section,
+.table-section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    color: #c75b91;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #e8b5ce;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #c75b91;
+    box-shadow: 0 0 5px rgba(199, 91, 145, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #c75b91;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a83e75;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 15px;
+}
+
+th {
+    background: #f5c4d9;
+    color: #793653;
+    padding: 14px 8px;
+}
+
+td {
+    padding: 13px 8px;
+    border-bottom: 1px solid #f1dce6;
+}
+
+tbody tr:hover {
+    background: #fff5f9;
+}
+
+.description {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#noResults {
+    text-align: center;
+    color: #999;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #a45b7d;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    .form-section,
+    .table-section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 10px 5px;
+    }
+}
